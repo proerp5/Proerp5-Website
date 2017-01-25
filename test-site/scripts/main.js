@@ -26,3 +26,7 @@ if(!localStorage.getItem('name')) {
   var storedName = localStorage.getItem('name');
   myHeading.textContent = 'Tigers are great!!, ' + storedName;
 }
+
+myButton.onclick = function() {
+  setUserName();
+}
